@@ -6,3 +6,4 @@ Hi, here is a collection of researches and codes on cool topics for me written d
 3. **Momentum trading strategy on energy markets**: exponential moving average and RSI calculation on NewEra Energy and Shell.[here](https://github.com/yukigiusy/My-researches/blob/main/Momentum_energy_markets.ipynb);
 4. **Black-Scholes model**: Focus on Brownian motion, Geometric Brownian motion, Ito's lemma, option ptice and volatility smile. [here](https://github.com/yukigiusy/My-researches/blob/main/BSM_d[iving_into_Brownian_motion%2C_Ito's_lemma_and_stock_prices.ipynb);
 5. **Heston model** [here](https://github.com/yukigiusy/My-researches/blob/main/Stochastic_volatility%20(1).ipynb)
+6. **Local volatility** [here](https://github.com/yukigiusy/My-researches/blob/main/Local_volatility.ipynb)
