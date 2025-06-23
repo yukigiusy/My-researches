@@ -16,4 +16,4 @@ defaults:
     scope:
       path: ""
     values:
-      css: "assets/css/style.css"
+      css: "main/style.css"
