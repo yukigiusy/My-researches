@@ -1,44 +1,54 @@
 ---
 layout: default
-title: Giusy – Quantitative Analyst
+title: Giusy Orefice – Quantitative Analyst
 ---
 
 # 👋 Hi, I'm Giusy!
 
-I'm a Master's graduate in **Quantitative Finance and Data Analysis** from Sapienza University. I’m passionate about stochastic models, machine learning, and the mathematics of financial markets. My work bridges theory and practice — from rough volatility modeling to data-driven trading strategies.
+I'm a Master's graduate in **Quantitative Finance and Data Analysis** from Sapienza University. I’m passionate about stochastic models, machine learning, and the mathematics of financial markets. My work bridges theory and practice.
 
-Currently looking for opportunities in **Quantitative Analysis, Risk Modeling**, or **Quantitative Research** in Europe.
-
----
-
-## 🔬 Projects
-
-### 🧠 Rough Bergomi Model – Simulation & Calibration  
-**Hybrid simulation**, Chebyshev interpolation, and **implied volatility surface calibration**  
-📍 ATM skew extraction & comparison with SPX options  
-📂 [View project](https://github.com/yourusername/rough-bergomi)
 
 ---
 
-### 📉 Hurst Estimation in Financial Time Series  
-Computed Hurst exponents from **high-frequency data (5-min)** using  
-p-variation and Gatheral’s log-log slope methods  
-🧪 Assets: SPY, SHEL, TTE, CL=F  
-📂 [View project](https://github.com/yourusername/hurst-estimation)
+
+### 🧠  Calibration of the ATM skew using a hybrid approach using rough volatility models and machine learning.
+**Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost for decoding the final ATM skew and implementn  a trading strategy.
+📍 ATM skew extraction & trading strategy  
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
 
 ---
 
-### 📊 Machine Learning for Implied Volatility Forecasting  
-Used XGBoost & neural networks to forecast ATM skew  
-📈 Features: Hurst, delta, vega, VIX, log-moneyness  
-📂 [View project](https://github.com/yourusername/iv-forecasting)
+### 📉 Local Volatility 
+Calibration of the implid volatiliy smile using Local volatility.  
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Local_volatility.ipynb)
+
+---
+### 📉 Heston Stochastic Volatility Model
+Calibration of the implid volatiliy smile using Heston volatility model.  
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Stochastic_volatility%20(1).ipynb)
+
+---
+### 📊 BSM  
+Focus on Brownian motion, Geometric Brownian motion, Ito's lemma, option ptice and volatility smile.  
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/BSM_d[iving_into_Brownian_motion%2C_Ito's_lemma_and_stock_prices.ipynb))
 
 ---
 
-### 🌸 CNN for Image Classification (Side Project)  
-Built a custom CNN and DenseNet-based transfer learning model  
-🖼️ Classified 4 flower types with ~90% accuracy  
-📂 [View project](https://github.com/yourusername/flower-cnn)
+### 🌸 Momentum Trading Strategy  
+Exponential moving average and RSI calculation on NextEra Energy and Shell.
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Momentum_energy_markets.ipynb)
+
+---
+
+### 📊  VIX Calculation
+ Thanks to the CBOE paper, I've implemented a calculation of the future VIX!
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/modelling_vix.ipynb)
+
+---
+
+### 📊  Value-at-risk
+I've calculated the value at risk and expected shortfall in the case of holding only one stock of TSLA. It is adaptable at every case. The main goal was to capture the differences in the risk metrics! 
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/VAR_%20(1).ipynb)
 
 ---
 
@@ -46,22 +56,22 @@ Built a custom CNN and DenseNet-based transfer learning model
 
 | Category       | Tools & Concepts |
 |----------------|------------------|
-| **Languages**  | Python, R, C++, SQL |
-| **Libraries**  | NumPy, Pandas, Scikit-learn, TensorFlow, XGBoost, Matplotlib |
-| **Quant**      | Rough volatility, Greeks, PCA, Monte Carlo, GARCH |
-| **ML**         | Feature engineering, hyperparameter tuning, classification models |
-| **Tools**      | Git, Jupyter, LaTeX, VSCode |
+| **Languages**  | Python, R, Excel|
+| **Libraries**  | NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Scipy, statsmodels|
+| **Quant**      | Stochastic processes, Derivatives, Monte Carlo simulation, Time series modelling |
+| **ML**         | Feature engineering, hyperparameter tuning, supervised and unsupervised learning |
+| **Tools**      | Git, Jupyter, LaTeX |
 
 ---
 
 ## 📄 CV & Contact
 
 - 📃 [Download my CV (PDF)](./cv/Giusy_CV.pdf)
-- ✉️ [Email me](mailto:your.email@example.com)
+- ✉️ [Email me](oreficegiusy01@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/your-profile)
-- 📍 Based in Italy, open to relocation (Netherlands, Switzerland, Denmark)
+- 📍 Based in Italy, open to relocation.
 
 ---
 
-> _"All models are wrong, but some are useful."_ – George Box  
+> _"Set your heart ablaze. Stand tall and proud, no matter how weak or unworthy you feel. Never stop moving forward."_ 
 > Passionate about building useful models for complex markets.
