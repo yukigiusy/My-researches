@@ -1,0 +1,19 @@
+title: Giusy – Quantitative Analyst
+description: Quantitative Finance · Rough Volatility · Machine Learning
+theme: jekyll-theme-minimal
+
+# Add this to include custom stylesheet
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+
+# Custom style
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "assets/css/style.css"
