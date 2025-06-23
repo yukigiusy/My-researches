@@ -12,7 +12,9 @@ I'm a Master's graduate in **Quantitative Finance and Data Analysis** from Sapie
 
 
 ### 🧠  Calibration of the ATM skew using a hybrid approach using rough volatility models and machine learning.
+
 **Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost for decoding the final ATM skew and implementn  a trading strategy.
+
 📍 ATM skew extraction & trading strategy  
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
 
@@ -51,6 +53,11 @@ I've calculated the value at risk and expected shortfall in the case of holding 
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/VAR_%20(1).ipynb)
 
 ---
+
+### 🧪 Upside and downside beta
+ 
+📂 [View project](https://github.com/yukigiusy/University-projects/blob/main/Upside_and_downside_beta.ipynb)
+
 
 ## 💡 Technical Skills
 
