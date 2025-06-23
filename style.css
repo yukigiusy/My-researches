@@ -1,0 +1,32 @@
+/* assets/css/style.css */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  background-color: #fefefe;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: #0066cc;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background: #f2f2f2;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 90%;
+}
