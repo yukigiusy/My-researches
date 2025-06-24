@@ -11,9 +11,9 @@ I'm a Master's graduate in **Quantitative Finance and Data Analysis** from Sapie
 ---
 
 
-### 🧠  Calibration of the ATM skew using a hybrid approach using rough volatility models and machine learning.
+### 🧠  Calibration of the ATM skew using a hybrid approach through rough volatility models and machine learning.
 
-**Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost for decoding the final ATM skew and implementn  a trading strategy.
+**Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost for decoding the final ATM skew and implementation of a trading strategy.
 
 📍 ATM skew extraction & trading strategy  
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
@@ -32,7 +32,7 @@ Calibration of the implid volatiliy smile using Heston volatility model.
 ---
 ### 📊 BSM  
 Focus on Brownian motion, Geometric Brownian motion, Ito's lemma, option ptice and volatility smile.  
-📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/BSM_d[iving_into_Brownian_motion%2C_Ito's_lemma_and_stock_prices.ipynb))
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/BSM_diving_into_Brownian_motion%2C_Ito's_lemma_and_stock_prices.ipynb))
 
 ---
 
