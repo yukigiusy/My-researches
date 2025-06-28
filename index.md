@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Giusy Orefice – Quantitative Analyst
+title: Giusy Orefice
 ---
 
 # 👋 Hi, I'm Giusy!
 
-I'm a Master's graduate in **Quantitative Finance and Data Analysis** from Sapienza University. I’m passionate about stochastic models, machine learning, and the mathematics of financial markets. My work bridges theory and practice.
+I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza University. I’m passionate about stochastic models, machine learning, and the mathematics of financial markets. My work bridges theory and practice.
 
 
 ---
@@ -80,5 +80,7 @@ I've calculated the value at risk and expected shortfall in the case of holding 
 
 ---
 
-> _"Set your heart ablaze. Stand tall and proud, no matter how weak or unworthy you feel. Never stop moving forward."_ 
+> _"Set your heart ablaze. Stand tall and proud, no matter how weak or unworthy you feel. Never stop moving forward."_
+
+
 > Passionate about building useful models for complex markets.
