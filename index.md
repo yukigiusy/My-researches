@@ -75,7 +75,7 @@ I've calculated the value at risk and expected shortfall in the case of holding 
 
 - 📃 [Download my CV](https://github.com/yukigiusy/yukigiusy/blob/main/Cv%20(16).pdf)
 - ✉️ [Email me](oreficegiusy01@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-profile)
+- 💼 [LinkedIn](https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav)
 - 📍 Based in Italy, open to relocation.
 
 ---
