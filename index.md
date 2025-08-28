@@ -16,6 +16,7 @@ I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza Un
 **Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost after hyperparameter tuning for decoding the final ATM skew and implementation of a trading strategy.
 
 📍 ATM skew extraction & trading strategy code + [publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191)
+
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
 
 ---
@@ -73,7 +74,7 @@ I've calculated the value at risk and expected shortfall in the case of holding 
 
 ## 📄 CV & Contact
 
-- 📃 [Download my CV](https://github.com/yukigiusy/yukigiusy/blob/main/Cv%20(16).pdf)
+- 📃 [Download my CV](https://github.com/yukigiusy/yukigiusy/blob/main/Giuseppina_Orefice_CV_Analyst_Pro%20(5).pdf)
 - ✉️ [Email me](oreficegiusy01@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav)
 - 📍 Based in Italy, open to relocation.
