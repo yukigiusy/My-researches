@@ -15,7 +15,7 @@ I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza Un
 
 **Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost after hyperparameter tuning for decoding the final ATM skew and implementation of a trading strategy.
 
-📍 ATM skew extraction & trading strategy  
+📍 ATM skew extraction & trading strategy code + [publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191)
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
 
 ---
