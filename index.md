@@ -17,7 +17,7 @@ I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza Un
 
 The methodology begins by quantifying the multifractal nature of volatility through the estimation of the Hurst exponent across multiple time scales. These varying roughness parameters are then incorporated into a customized rough Bergomi (rBergomi) model, producing a more realistic implied volatility surface across maturities. An Extreme Gradient Boosting (XGBoost) model is then trained to capture the complex, non-linear relationship between the market's ATM skew and a set of explanatory variables, which include rBergomi-implied volatilities. To enhance predictive performance and interpretability, the feature space is enriched using Principal Component Analysis (PCA) and feature importance metrics.
 
-The dissertation has been published and you can read it. 📚[publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191) .
+The dissertation has been published and you can read it. 📚[Here the publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191) .
 
 📂 [View project code](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
 
@@ -28,6 +28,7 @@ The inputs are holding period, confidence level and portfolio weights.
 Furthermore you can choose the stocks and see a table with the returns from 2020-01-01 to 2025-08-29 and moreover, it is possible to extract the time series plot.
 🗂️ Click [here](https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard.ipynb) for the code and [here](https://1f93a4af7d89.ngrok-free.app/) to use it (just a little reminder: since I'm using ngrok, it creates a temporary link that works as long as I don't re run the code. It will be my care update it if it will change. Sorry for the incovenient. 😥).
 
+---
 
 ### 📉 Local Volatility 
 Calibration of the implid volatiliy smile using Local volatility.  
