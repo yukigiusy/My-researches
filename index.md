@@ -5,7 +5,7 @@ title: Giusy Orefice
 
 # 👋 Hi, I'm Giusy!
 
-I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza University. I’m passionate about stochastic models, machine learning, and the mathematics of financial markets. My work bridges theory and practice.
+I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza University. I’m passionate about voatility models, machine learning and AI, the mathematics of financial markets and programming languages. My work bridges financial theory and practice for a comprehensive analysis of the world.
 
 
 ---
@@ -15,11 +15,19 @@ I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza Un
 
 **Hurst exponent estimation in a multiscale framework**, **Multiscale Rough Bergomi model**, **ML**: PCA, Feature importance and XGBoost after hyperparameter tuning for decoding the final ATM skew and implementation of a trading strategy.
 
-📍 ATM skew extraction & trading strategy code + [publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191)
+The methodology begins by quantifying the multifractal nature of volatility through the estimation of the Hurst exponent across multiple time scales. These varying roughness parameters are then incorporated into a customized rough Bergomi (rBergomi) model, producing a more realistic implied volatility surface across maturities. An Extreme Gradient Boosting (XGBoost) model is then trained to capture the complex, non-linear relationship between the market's ATM skew and a set of explanatory variables, which include rBergomi-implied volatilities. To enhance predictive performance and interpretability, the feature space is enriched using Principal Component Analysis (PCA) and feature importance metrics.
 
-📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
+The dissertation has been published and you can read it. 📚[publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191) .
+
+📂 [View project code](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
 
 ---
+### 🆕 📊 New in: Dashboard for portfolio analysis: VAR and ES calculated for a portfolio of 4 stocks.
+I have created a dashboard for performing the calculation of VAR and ES on a portfolio constructed with TSLA, AAPL, XOM and KO.
+The inputs are holding period, confidence level and portfolio weights.
+Furthermore you can choose the stocks and see a table with the returns from 2020-01-01 to 2025-08-29 and moreover, it is possible to extract the time series plot.
+🗂️ Click [here](https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard.ipynb) for the code and [here](https://1f93a4af7d89.ngrok-free.app/) to use it (just a little reminder: since I'm using ngrok, it creates a temporary link that works as long as I don't re run the code. It will be my care update it if it will change. Sorry for the incovenient. 😥).
+
 
 ### 📉 Local Volatility 
 Calibration of the implid volatiliy smile using Local volatility.  
@@ -65,7 +73,7 @@ I've calculated the value at risk and expected shortfall in the case of holding 
 | Category       | Tools & Concepts |
 |----------------|------------------|
 | **Languages**  | Python, R, Excel|
-| **Libraries**  | NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Scipy, statsmodels|
+| **Libraries**  | NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Scipy, statsmodels, Dash|
 | **Quant**      | Stochastic processes, Derivatives, Monte Carlo simulation, Time series modelling |
 | **ML**         | Feature engineering, hyperparameter tuning, supervised and unsupervised learning |
 | **Tools**      | Git, Jupyter, LaTeX |
