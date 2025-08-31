@@ -7,6 +7,10 @@ title: Giusy Orefice
 
 I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza University. I’m passionate about voatility models, machine learning and AI, the mathematics of financial markets and programming languages. My work bridges financial theory and practice for a comprehensive analysis of the world.
 
+I'm so proud of what I have built, that's why you can take a look of the different projects.
+I always keep my nose to the grindstone in order to improve my skills.
+Have a nice read! 🧡
+
 
 ---
 
