@@ -30,22 +30,23 @@ The dissertation has been published and you can read it. 📚[Here the publicati
 I have created a dashboard for performing the calculation of VAR and ES on a portfolio constructed with TSLA, AAPL, XOM and KO.
 The inputs are holding period, confidence level and portfolio weights.
 Furthermore you can choose the stocks and see a table with the returns from 2020-01-01 to 2025-08-29 and moreover, it is possible to extract the time series plot.
-🗂️ Click [here](https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard.ipynb) for the code and [here](https://1f93a4af7d89.ngrok-free.app/) to use it (just a little reminder: since I'm using ngrok, it creates a temporary link that works as long as I don't re run the code. It will be my care update it if it will change. Sorry for the incovenient. 😥).
+
+🗂️ Click [here](https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard.ipynb) for the code and [here](https://1f93a4af7d89.ngrok-free.app/) to use it (just a little reminder: since I'm using ngrok, it creates a temporary link that works as long as I don't re run the code. It will be my care to update it if it will change. Sorry for the incovenient. 😥).
 
 ---
 
 ### 📉 Local Volatility 
-Calibration of the implid volatiliy smile using Local volatility.  
+Calibration of the implied volatiliy smile using Local volatility.  
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Local_volatility.ipynb)
 
 ---
 ### 📉 Heston Stochastic Volatility Model
-Calibration of the implid volatiliy smile using Heston volatility model.  
+Calibration of the implied volatiliy smile using Heston volatility model.  
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Stochastic_volatility%20(1).ipynb)
 
 ---
 ### 📊 BSM  
-Focus on Brownian motion, Geometric Brownian motion, Ito's lemma, option ptice and volatility smile.  
+Focus on Brownian motion, Geometric Brownian motion, Ito's lemma, option price and volatility smile.  
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/BSM_diving_into_Brownian_motion%2C_Ito's_lemma_and_stock_prices.ipynb))
 
 ---
@@ -57,7 +58,7 @@ Exponential moving average and RSI calculation on NextEra Energy and Shell.
 ---
 
 ### 📊  VIX Calculation
- Thanks to the CBOE paper, I've implemented a calculation of the future VIX!
+Thanks to the CBOE paper, I've implemented a calculation of the future VIX!
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/modelling_vix.ipynb)
 
 ---
@@ -69,7 +70,8 @@ I've calculated the value at risk and expected shortfall in the case of holding 
 ---
 
 ### 🧪 Upside and downside beta
- 
+Analysis of a portafolio of stocks using the upside and downside beta.
+Pros and cons of using it and how to overcome the limitations.
 📂 [View project](https://github.com/yukigiusy/University-projects/blob/main/Upside_and_downside_beta.ipynb)
 
 
