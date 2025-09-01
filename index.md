@@ -9,6 +9,7 @@ I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza Un
 
 I'm so proud of what I have built, that's why you can take a look of the different projects.
 I always keep my nose to the grindstone in order to improve my skills.
+
 Have a nice read! 🧡
 
 
@@ -31,7 +32,7 @@ I have created a dashboard for performing the calculation of VAR and ES on a por
 The inputs are holding period, confidence level and portfolio weights.
 Furthermore you can choose the stocks and see a table with the returns from 2020-01-01 to 2025-08-29 and moreover, it is possible to extract the time series plot.
 
-🗂️ Click [here](https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard.ipynb) for the code and [here](https://1f93a4af7d89.ngrok-free.app/) to use it (just a little reminder: since I'm using ngrok, it creates a temporary link that works as long as I don't re run the code. It will be my care to update it if it will change. Sorry for the incovenient. 😥).
+🗂️ Click [here](https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard%20(1).ipynb) for the code and [here](https://518279d1c2d8.ngrok-free.app/) to use it (just a little reminder: since I'm using ngrok, it creates a temporary link that works as long as I don't re run the code. It will be my care to update it if it will change. Sorry for the incovenient. 😥).
 
 ---
 
