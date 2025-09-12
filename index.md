@@ -52,6 +52,11 @@ Focus on Brownian motion, Geometric Brownian motion, Ito's lemma, option price a
 
 ---
 
+### *️⃣Option prices using Monte Carlo simulations and control variates.
+📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Final_Options_pricing.ipynb)
+
+---
+
 ### 🌸 Momentum Trading Strategy  
 Exponential moving average and RSI calculation on NextEra Energy and Shell.
 📂 [View project](https://github.com/yukigiusy/My-researches/blob/main/Momentum_energy_markets.ipynb)
