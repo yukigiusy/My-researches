@@ -8,3 +8,5 @@ Hi, here is a collection of researches and codes on cool topics for me written d
 5. **Heston model** [here](https://github.com/yukigiusy/My-researches/blob/main/Stochastic_volatility%20(1).ipynb)
 6. **Local volatility** [here](https://github.com/yukigiusy/My-researches/blob/main/Local_volatility.ipynb)
 7. **Thesis**: calibration of the ATM skew using a hybrid approach using rough volatility models and machine learning. [here](https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb)
+8. **Dahsboard VAR and ES**;
+9. **Options prices using Monte Carlo simulations and control variates**: [here](https://github.com/yukigiusy/My-researches/blob/main/Final_Options_pricing.ipynb)
