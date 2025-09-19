@@ -1,36 +1,36 @@
-/* Force light background and text */
+/* Global Styles */
 body {
-  background-color: #ffffff !important;
-  color: #333333 !important;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-/* Project cards */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+h1, h2, h3 {
+  color: #2c3e50;
 }
 
+/* Project Cards */
 .project-card {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 12px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-card a {
-  color: #0366d6;
-  font-weight: 600;
+  color: #3498db;
   text-decoration: none;
 }
+
 .project-card a:hover {
   text-decoration: underline;
 }
