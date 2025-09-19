@@ -7,9 +7,9 @@ css: "/assets/css/style.css"
 # 👋 Hi, I'm Giusy!
 
 I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza University.  
-I’m passionate about volatility models, machine learning and AI, and the mathematics of financial markets.
+I’m passionate about volatility models, machine learning and AI, the mathematics of financial markets and programming languages.
 
-I’m so proud of what I have built, that's why you can take a look at my [projects](/projects.md).
+I’m so proud of what I have built, that's why you can take a look at my projects below.
 
 ---
 
@@ -25,13 +25,24 @@ I’m so proud of what I have built, that's why you can take a look at my [proje
 
 ---
 
-## 📄 CV & Contact
+# 🚀 My Projects
 
-- 📃 [Download my CV](https://github.com/yukigiusy/yukigiusy/blob/main/Giuseppina_Orefice_CV_Analyst_Pro%20(5).pdf)
-- ✉️ Email: oreficegiusy01@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav)
-- 📍 Based in Italy, open to relocation.
+<div class="projects-grid">
 
----
+<div class="project-card">
+<h3>🧠 ATM Skew Calibration with Rough Volatility & ML</h3>
+<p>Hurst exponent estimation across multiple time scales, Multiscale rBergomi model, and XGBoost with PCA for ATM skew prediction.</p>
+📄 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191">Read publication</a><br>
+💻 <a href="https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb">View code</a>
+</div>
 
-> _"Set your heart ablaze. Stand tall and proud, no matter how weak or unworthy you feel. Never stop moving forward."_
+<div class="project-card">
+<h3>💹 Operational Risk Estimation</h3>
+<p>Exploratory analysis, K-Means clustering, and EM mixtures on synthetic data. Computed VaR, ES, and tail metrics.</p>
+💻 <a href="https://github.com/yukigiusy/My-researches/blob/main/Operational_risk_estimation.ipynb">View code</a><br>
+📊 <a href="https://github.com/yukigiusy/My-researches/blob/main/operational_risk_full.csv">Dataset</a>
+</div>
+
+
+
+</div>
