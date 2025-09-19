@@ -8,6 +8,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Inter', sans-serif; }
+    /* Horizontal scroll styling */
+    .projects-scroll {
+      display: flex;
+      overflow-x: auto;
+      gap: 1.5rem;
+      padding-bottom: 1rem;
+      scroll-behavior: smooth;
+    }
+    .projects-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+    .projects-scroll::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+    .projects-scroll::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
@@ -54,93 +72,80 @@
   <!-- Projects -->
   <section id="projects" class="max-w-6xl mx-auto px-6 mb-12">
     <h2 class="text-2xl font-semibold mb-6">🚀 Projects</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
+    <div class="projects-scroll">
+      
       <!-- ATM Skew -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
-        <h3 class="text-xl font-semibold mb-2">🧠 ATM Skew Calibration with Rough Volatility & ML</h3>
-        <div class="h-1 w-16 bg-blue-500 rounded mb-3"></div>
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
+        <h3 class="text-xl font-semibold mb-2">🧠 ATM Skew Calibration</h3>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #4f46e5, #6366f1);"></div>
         <p class="mb-2">Hurst exponent estimation, Multiscale rBergomi model, and XGBoost with PCA for ATM skew prediction.</p>
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191" target="_blank" class="text-blue-600 font-semibold hover:underline">Read publication</a><br>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View code</a>
       </div>
 
       <!-- Operational Risk -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">💹 Operational Risk Estimation</h3>
-        <div class="h-1 w-16 bg-green-500 rounded mb-3"></div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #10b981, #34d399);"></div>
         <p class="mb-2">Exploratory analysis, K-Means clustering, and EM mixtures. Computed VaR, ES, and tail metrics.</p>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/Operational_risk_estimation.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View code</a><br>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/operational_risk_full.csv" target="_blank" class="text-blue-600 font-semibold hover:underline">Dataset</a>
       </div>
 
       <!-- Portfolio Dashboard -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">📊 Portfolio Dashboard – VAR & ES</h3>
-        <div class="h-1 w-16 bg-purple-500 rounded mb-3"></div>
-        <p class="mb-2">Interactive dashboard for calculating VAR & ES on a customizable portfolio of TSLA, AAPL, XOM, and KO.</p>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #8b5cf6, #a78bfa);"></div>
+        <p class="mb-2">Interactive dashboard for calculating VAR & ES on TSLA, AAPL, XOM, and KO.</p>
         <a href="https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard%20(1).ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View code</a><br>
         <a href="https://518279d1c2d8.ngrok-free.app/" target="_blank" class="text-blue-600 font-semibold hover:underline">Use dashboard</a>
       </div>
 
       <!-- Local Volatility -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">📉 Local Volatility Model</h3>
-        <div class="h-1 w-16 bg-yellow-500 rounded mb-3"></div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #f59e0b, #fcd34d);"></div>
         <p class="mb-2">Calibration of implied volatility smile using Local Volatility framework.</p>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/Local_volatility.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
       </div>
 
       <!-- Heston -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">📉 Heston Stochastic Volatility Model</h3>
-        <div class="h-1 w-16 bg-red-500 rounded mb-3"></div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #ef4444, #f87171);"></div>
         <p class="mb-2">Calibration of volatility smile under the Heston model.</p>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/Stochastic_volatility%20(1).ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
       </div>
 
       <!-- BSM -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">📊 Black–Scholes–Merton</h3>
-        <div class="h-1 w-16 bg-indigo-500 rounded mb-3"></div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #6366f1, #a5b4fc);"></div>
         <p class="mb-2">Exploration of Brownian motion, Ito’s Lemma, option pricing, and volatility smile.</p>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/BSM_diving_into_Brownian_motion%2C_Ito's_lemma_and_stock_prices.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
       </div>
 
       <!-- Momentum Trading -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">🌸 Momentum Trading Strategy</h3>
-        <div class="h-1 w-16 bg-pink-500 rounded mb-3"></div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #ec4899, #f9a8d4);"></div>
         <p class="mb-2">EMA & RSI trading signals on NextEra Energy and Shell.</p>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/Momentum_energy_markets.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
       </div>
 
       <!-- VIX -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">📊 VIX Calculation</h3>
-        <div class="h-1 w-16 bg-teal-500 rounded mb-3"></div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #14b8a6, #2dd4bf);"></div>
         <p class="mb-2">Implementation of forward VIX calculation from CBOE paper.</p>
         <a href="https://github.com/yukigiusy/My-researches/blob/main/modelling_vix.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
       </div>
 
       <!-- VAR & ES -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+      <div class="bg-white rounded-lg shadow-md p-6 min-w-[280px] hover:shadow-xl transition duration-300 flex-shrink-0">
         <h3 class="text-xl font-semibold mb-2">📊 Value-at-Risk & Expected Shortfall</h3>
-        <div class="h-1 w-16 bg-gray-700 rounded mb-3"></div>
-        <p class="mb-2">Risk metrics analysis on TSLA stock. Adaptable to any dataset.</p>
-        <a href="https://github.com/yukigiusy/My-researches/blob/main/VAR_%20(1).ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
-      </div>
+        <div class="h-1 w-16 mb-3 rounded" style="background: linear-gradient(to right, #4b5563, #9ca3af);
 
-      <!-- Upside & Downside Beta -->
-      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
-        <h3 class="text-xl font-semibold mb-2">🧪 Upside & Downside Beta</h3>
-        <div class="h-1 w-16 bg-orange-500 rounded mb-3"></div>
-        <p class="mb-2">Portfolio analysis using conditional betas, discussing pros/cons and limitations.</p>
-        <a href="https://github.com/yukigiusy/University-projects/blob/main/Upside_and_downside_beta.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View project</a>
-      </div>
-
-    </div>
-  </section>
 
   <!-- Contact -->
   <section id="contact" class="max-w-4xl mx-auto px-6 mb-12 text-center">
