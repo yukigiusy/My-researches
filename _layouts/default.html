@@ -2,31 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
-
-  <!-- Custom CSS -->
-  {% if page.css %}
-  <link rel="stylesheet" href="{{ page.css | relative_url }}">
-  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giusy – Financial Analyst</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body>
-  <div class="wrapper">
-    <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <p>{{ site.description }}</p>
-      <nav>
-        <ul>
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<body class="bg-gray-50 text-gray-900">
 
-    <main>
-      {{ content }}
-    </main>
-  </div>
+  <!-- Header -->
+  <header class="text-center py-12">
+    <h1 class="text-4xl font-bold mb-2">Giusy – Financial Analyst</h1>
+    <p class="text-lg text-gray-700">Quantitative Finance · Risk Management · Rough Volatility Models · Machine Learning & AI</p>
+  </header>
+
+  <!-- Introduction -->
+  <section class="max-w-4xl mx-auto px-6 mb-12">
+    <p class="mb-4">Hi, I'm <strong>Giusy</strong>, a Master's graduate in <strong>Financial Risk and Data Analysis</strong> from Sapienza University. I’m passionate about volatility models, machine learning, and financial markets. My work bridges financial theory and practice for comprehensive analysis.</p>
+    <p>I’m proud of what I have built. Below you can explore my projects, skills, and publications.</p>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="max-w-4xl mx-auto px-6 mb-12">
+    <h2 class="text-2xl font-semibold mb-4">💡 Technical Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="font-semibold">Languages</h3>
+        <p>Python, R, Excel</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Libraries</h3>
+        <p>NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Scipy, statsmodels, Dash</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Quant</h3>
+        <p>Stochastic processes, Derivatives, Monte Carlo simulation, Time series modelling</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">ML</h3>
+        <p>Feature engineering, hyperparameter tuning, supervised and unsupervised learning</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Tools</h3>
+        <p>Git, Jupyter, LaTeX</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-6 mb-12">
+    <h2 class="text-2xl font-semibold mb-6">🚀 Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Project Card Example -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">🧠 ATM Skew Calibration with Rough Volatility & ML</h3>
+        <p class="mb-2">Hurst exponent estimation, Multiscale rBergomi model, and XGBoost with PCA for ATM skew prediction.</p>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369191" target="_blank" class="text-blue-600 font-semibold hover:underline">Read publication</a><br>
+        <a href="https://github.com/yukigiusy/My-researches/blob/main/Thesis.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View code</a>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">💹 Operational Risk Estimation</h3>
+        <p class="mb-2">Exploratory analysis, K-Means clustering, EM mixtures. Computed VaR, ES, and tail metrics.</p>
+        <a href="https://github.com/yukigiusy/My-researches/blob/main/Operational_risk_estimation.ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View code</a><br>
+        <a href="https://github.com/yukigiusy/My-researches/blob/main/operational_risk_full.csv" target="_blank" class="text-blue-600 font-semibold hover:underline">Dataset</a>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">📊 Portfolio Dashboard – VAR & ES</h3>
+        <p class="mb-2">Interactive dashboard for calculating VAR & ES on a customizable portfolio of TSLA, AAPL, XOM, and KO.</p>
+        <a href="https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard%20(1).ipynb" target="_blank" class="text-blue-600 font-semibold hover:underline">View code</a><br>
+        <a href="https://518279d1c2d8.ngrok-free.app/" target="_blank" class="text-blue-600 font-semibold hover:underline">Use dashboard</a>
+      </div>
+
+      <!-- Add remaining projects in the same format -->
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 mb-12 text-center">
+    <h2 class="text-2xl font-semibold mb-4">📄 CV & Contact</h2>
+    <p>📃 <a href="https://github.com/yukigiusy/yukigiusy/blob/main/Giuseppina_Orefice_CV_Analyst_Pro%20(5).pdf" class="text-blue-600 font-semibold hover:underline">Download my CV</a></p>
+    <p>✉️ Email: <a href="mailto:oreficegiusy01@gmail.com" class="text-blue-600 hover:underline">oreficegiusy01@gmail.com</a></p>
+    <p>💼 <a href="https://www.linkedin.com/me?trk=p_mwlite_profile_view-secondary_nav" class="text-blue-600 hover:underline">LinkedIn</a></p>
+    <p>📍 Based in Italy, open to relocation</p>
+    <blockquote class="mt-4 italic text-gray-600">"Set your heart ablaze. Stand tall and proud, no matter how weak or unworthy you feel. Never stop moving forward."</blockquote>
+  </section>
+
 </body>
 </html>
