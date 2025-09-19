@@ -16,9 +16,6 @@ defaults:
     values:
       css: "/assets/css/style.css"
 
-
 header_pages:
   - index.md
   - projects.md
-  - resume.md
-  - contact.md
