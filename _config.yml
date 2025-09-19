@@ -1,6 +1,6 @@
 title: "Giusy – Financial Analyst"
 description: "Quantitative Finance · Risk Management · Rough Volatility Models · Machine Learning & AI"
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate-day
 
 markdown: kramdown
 kramdown:
@@ -15,7 +15,7 @@ defaults:
     scope:
       path: ""
     values:
-      css: 
+      css: "/assets/css/style.css"
 
 # Navigation bar
 header_pages:
