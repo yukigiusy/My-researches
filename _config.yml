@@ -1,8 +1,7 @@
-title: Giusy – Financial Analyst
-description: Quantitative Finance ·Risk Management· Rough Volatility Models · Machine Learning and AI
+title: "Giusy – Financial Analyst"
+description: "Quantitative Finance · Risk Management · Rough Volatility Models · Machine Learning & AI"
 theme: jekyll-theme-minimal
 
-# Add this to include custom stylesheet
 markdown: kramdown
 kramdown:
   input: GFM
@@ -10,10 +9,17 @@ kramdown:
 plugins:
   - jekyll-feed
 
-# Custom style
+# Custom defaults
 defaults:
   -
     scope:
       path: ""
     values:
-      css: "main/style.css"
+      css: "assets/css/style.css"
+
+# Navigation bar
+header_pages:
+  - index.md
+  - projects.md
+  - resume.md
+  - contact.md
