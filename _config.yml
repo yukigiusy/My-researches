@@ -9,6 +9,14 @@ kramdown:
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "/assets/css/style.css"
+
+
 header_pages:
   - index.md
   - projects.md
