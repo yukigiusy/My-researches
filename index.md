@@ -7,10 +7,9 @@ css: "/assets/css/style.css"
 # 👋 Hi, I'm Giusy!
 
 I'm a Master's graduate in **Financial Risk and Data Analysis** from Sapienza University.  
-I’m passionate about volatility models, machine learning and AI, the mathematics of financial markets and programming languages. My work bridges financial theory and practice for a comprehensive analysis of the world.
+I’m passionate about volatility models, machine learning and AI, the mathematics of financial markets and programming languages. My work bridges financial theory to practice for a comprehensive analysis.
 
-I’m so proud of what I have built, that's why you can take a look at my projects below.  
-I always keep my nose to the grindstone in order to improve my skills.
+Below you can explore my projects, skills and publications done with my willingness to seek opportunities to learn and grow. I strive to improve every day, both personally and professionally. For that reason I've built different projects and researches.
 
 ---
 
@@ -18,7 +17,7 @@ I always keep my nose to the grindstone in order to improve my skills.
 
 | Category       | Tools & Concepts |
 |----------------|------------------|
-| **Languages**  | Python, R, Excel|
+| **Languages**  | Python, R, Excel, SQL|
 | **Libraries**  | NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Scipy, statsmodels, Dash|
 | **Quant**      | Stochastic processes, Derivatives, Monte Carlo simulation, Time series modelling |
 | **ML**         | Feature engineering, hyperparameter tuning, supervised and unsupervised learning |
