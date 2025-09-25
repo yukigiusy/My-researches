@@ -44,6 +44,13 @@ Below you can explore my projects, skills and publications done with my willingn
 </div>
 
 <div class="project-card">
+<h3>💹 Regime‑Aware Bitcoin Volatility with HMMs and GJR‑GARCH in Python </h3>
+<p>BITCOIN, HMM, GJR-GARCH, GRANGER CAUSALITY with SP500</p>
+💻 <a href="https://github.com/yukigiusy/My-researches/blob/main/Bitcoin_analysis.ipynb" target="_blank">View code</a><br>
+📊 <a href="https://medium.com/@oreficegiusy01/regime-aware-bitcoin-volatility-with-hmms-and-gjr-garch-in-python-99e09ce7bd35" target="_blank">Read the article on Medium</a>
+</div>
+
+<div class="project-card">
 <h3>📊 Portfolio Dashboard – VAR & ES</h3>
 <p>Interactive dashboard for calculating VAR & ES on a customizable portfolio of TSLA, AAPL, XOM and KO.</p>
 💻 <a href="https://github.com/yukigiusy/Dashboards/blob/main/VAR_and_ES_dashboard%20(1).ipynb" target="_blank">View code</a><br>
